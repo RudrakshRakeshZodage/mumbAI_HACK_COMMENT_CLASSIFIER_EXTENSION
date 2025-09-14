@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "AI Comment Checker",
+  "version": "1.0",
+  "description": "Highlights AI-generated comments and shows confidence score.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "*://*.youtube.com/*",
+    "*://*.google.com/*",
+    "*://*.google.co.in/*",
+    "*://*.googleusercontent.com/*",
+    "*://*.maps.google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.google.com/search*",
+        "*://*.google.com/maps*",
+        "*://*.google.com/maps/reviews*",
+        "*://*.googleusercontent.com/*",
+        "<all_urls>"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+##To run on stremalit
+python -m venv venv
+venv\Scripts\activate
+cd
+streamlit_app
+streamlit run app.py
+
+##To run extension of this on local server
+//First run the custom api
+cd api
+python main.py
+
+
+AI - 1
+HUman - 0
+TF - IDF
+
+///Example for comment on Google reveiwe - Human One
+https://www.google.com/search?q=restaurent+near+chrchagte&sca_esv=44de6e3e3760b035&rlz=1C1CHZN_en-GBIN1156IN1156&sxsrf=AE3TifOrqmwYIOOSXuPUsbwOws1USsyl5Q%3A1751972486271&ei=hvpsaPekEOOsseMPmt3vwQI&ved=0ahUKEwj3_8yNjq2OAxVjVmwGHZruOygQ4dUDCBA&uact=5&oq=restaurent+near+chrchagte&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXJlc3RhdXJlbnQgbmVhciBjaHJjaGFndGUyBxAAGIAEGA0yBxAAGIAEGA0yBxAAGIAEGA0yCBAAGAUYDRgeMggQABgFGA0YHjIIEAAYBRgNGB4yCBAAGAUYDRgeMggQABgFGA0YHjIIEAAYBRgNGB4yCBAAGAUYDRgeSJ4RUABY8g9wAHgBkAEAmAG6AaABtA2qAQQwLjExuAEDyAEA-AEBmAIHoALICMICEBAuGIAEGMcBGA0YjgUYrwHCAgYQABgNGB7CAggQABiABBiiBJgDAOIDBRIBMSBAkgcDMC43oAedTrIHAzAuN7gHyAjCBwUwLjUuMsgHFQ&sclient=gws-wiz-serp&lqi=ChtyZXN0YXVyYW50cyBuZWFyIGNodXJjaGdhdGVI6f3C1uWAgIAIWikQABgAGAIiG3Jlc3RhdXJhbnRzIG5lYXIgY2h1cmNoZ2F0ZSoECAMQAJIBFXZlZ2V0YXJpYW5fcmVzdGF1cmFudKoBVRABKg8iC3Jlc3RhdXJhbnRzKAAyHxABIhv1zv4lE1DqNMSp6SqapiLMVG-1u1Fa0MCmU2EyHxACIhtyZXN0YXVyYW50cyBuZWFyIGNodXJjaGdhdGU#lkt=LocalPoiReviews&rlimm=14462013692522478594
+
+// Example for comment on Google reveiwe - AI one
