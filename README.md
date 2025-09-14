@@ -16,11 +16,10 @@ A Google Chrome extension + Flask backend that **classifies comments as “AI-ge
 ## 🛠️ Tech Stack
 | Layer        | Technology |
 |--------------|-----------|
-| Frontend     | Chrome Extension (Manifest V3), HTML, CSS, JavaScript |
+| Frontend     | Chrome Extension, HTML, CSS, JavaScript |
 | Backend      | Python Flask API |
 | Machine Learning | TF-IDF Vectorizer + Logistic Regression |
 | Data Science | scikit-learn, joblib |
-| Deployment (optional) | Render / Railway / any cloud platform |
 
 ---
 
